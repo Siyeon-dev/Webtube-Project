@@ -1,0 +1,22 @@
+{
+  "name": "wetube_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siyeon-dev/Webtube-Project.git"
+  },
+  "author": "Siyeon Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siyeon-dev/Webtube-Project/issues"
+  },
+  "homepage": "https://github.com/Siyeon-dev/Webtube-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
