@@ -13,9 +13,14 @@
   },
   "homepage": "https://github.com/Siyeon-dev/Webtube-Project#readme",
   "dependencies": {
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
