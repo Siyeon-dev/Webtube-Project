@@ -1,6 +1,10 @@
-import express from "express";
-import routes from "../routes";
-import { changePassword, editProfile, userDetail } from '../controllers/userController';
+import express from 'express';
+import routes from '../routes';
+import {
+	changePassword,
+	editProfile,
+	userDetail,
+} from '../controllers/userController';
 
 const userRouter = express.Router();
 
