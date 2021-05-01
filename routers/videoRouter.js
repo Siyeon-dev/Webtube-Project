@@ -5,7 +5,7 @@ import { videos, upload, videoDetial, editVideo, deleteVideo } from '../controll
 const videoRouter = express.Router();
 
 videoRouter.get(router.upload, upload);
-videoRouter.get(router.videoDetail, videoDetial);
+videoRouter.get(router.videoDetail(), videoDetial);
 videoRouter.get(router.editVideo, editVideo);
 videoRouter.get(router.deleteVideo, deleteVideo);
 
