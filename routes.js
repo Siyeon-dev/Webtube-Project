@@ -27,7 +27,7 @@ const routes = {
     users: USERS,
     userDetail: (id) => {
         if (id) {
-            return `/users/${id}`;
+            return `${USERS}/${id}`;
         } else {
             return USER_DETAIL;
         }
@@ -38,7 +38,7 @@ const routes = {
     upload: UPLOAD,
     videoDetail: (id) => {
         if (id) {
-            return `/videos/${id}`;
+            return `${VIDEOS}/${id}`;
         } else {
             return VIDEO_DETAIL;
         }
