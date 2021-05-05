@@ -24,6 +24,6 @@ videoRouter.get(router.editVideo(), getEditVideo);
 videoRouter.post(router.editVideo(), postEditVideo);
 
 // Delete Video
-videoRouter.get(router.deleteVideo, deleteVideo);
+videoRouter.get(router.deleteVideo(), deleteVideo);
 
 export default videoRouter;
