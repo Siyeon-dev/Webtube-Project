@@ -38,21 +38,21 @@ const routes = {
 	upload: UPLOAD,
 	videoDetail: (id) => {
 		if (id) {
-			return `${VIDEOS}/${id}`;
+			return `/${VIDEOS}/${id}`;
 		} else {
 			return VIDEO_DETAIL;
 		}
 	},
 	editVideo: (id) => {
 		if (id) {
-			return `${VIDEOS}/${id}/edit`;
+			return `/${VIDEOS}/${id}/edit`;
 		} else {
 			return EDIT_VIDEO;
 		}
 	},
 	deleteVideo: (id) => {
 		if (id) {
-			return `${VIDEOS}/${id}/delete`;
+			return `/${VIDEOS}/${id}/delete`;
 		} else {
 			return DELETE_VIDEO;
 		}
