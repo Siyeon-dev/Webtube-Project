@@ -38,9 +38,9 @@ export const postLogin = passport.authenticate("local", {
 	successRedirect: routes.home,
 });
 
-export const logout = (req, res) => {
+export const logout = async (req, res) => {
 	// To Do: Process Log Out
-	req.logout();
+	await req.logout();
 	res.redirect(routes.home);
 };
 
